@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import "./Intro.scss"
-import Pic from "./../../assets/pic1.jpeg"
+import Pic from "./../../assets/pic.png"
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { init } from "ityped"
 
