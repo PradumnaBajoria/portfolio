@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Portfolio.scss"
 import blog from "./../../assets/blog.png"
+import ecom from "./../../assets/ecom.png"
 
 function Portfolio() {
     return (
@@ -16,8 +17,8 @@ function Portfolio() {
                     <h3>Blog App</h3>
                 </div>
                 <div className="item">
-                    <img src={blog} alt="img" />
-                    <h3>Blog App</h3>
+                    <img src={ecom} alt="img" />
+                    <h3>E Commerce App</h3>
                 </div>
                 <div className="item">
                     <img src={blog} alt="img" />
