@@ -5,8 +5,9 @@ import {
     featuredPortfolio,
     reactPortfolio,
     otherPortfolio
-} from "./../../assets/project"
+} from "./../../project"
 import { useEffect } from 'react'
+import blog from "./../../assets/blog.png"
 
 function Portfolio() {
 
@@ -67,7 +68,10 @@ function Portfolio() {
                             <h3>{item.title}</h3>
                         </div>
                     ))}
-                    
+                    {/* <div className="item">
+                        <img src={blog} alt="img" />
+                        <h3>Test</h3>
+                    </div> */}
                
             </div>
         </div>
