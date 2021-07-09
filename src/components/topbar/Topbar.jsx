@@ -8,7 +8,7 @@ function Topbar({ menu, setMenu }) {
         <div className={'topbar ' + (menu && 'active')}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className='logo'>genius.</a>
+                    <a href="#intro" className='logo'>Resume.</a>
                     <div className="itemContainer">
                         <PersonIcon className='icon' />
                         <span>9924972564</span>
