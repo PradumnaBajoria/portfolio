@@ -60,7 +60,7 @@
 
                 @include mobile{
                     width: 85%;
-                    height: 160px;
+                    height: 120px;
                     margin: 10px 0;
                 }
 
@@ -98,13 +98,13 @@
                         h2{
                             font-size: 20px;
                             @include mobile{
-                                font-size: 15px;
+                                font-size: 10px;
                             }
                         }
                         p{
                             font-size: 13px;
                             @include mobile{
-                                font-size: 10px;
+                                font-size: 7px;
                             }
                         }
                         span{
@@ -113,7 +113,8 @@
                             text-decoration: underline;
                             cursor: pointer;
                             @include mobile{
-                                font-size: 12px;
+                                font-size: 6px;
+                                color: black;
                             }
                         }
                     }

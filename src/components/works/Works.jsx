@@ -1,7 +1,5 @@
 import React from 'react'
 import "./Works.scss"
-import blog from "./../../assets/blog.png"
-import blogIcon from "./../../assets/blogIcon.jpg"
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import { featuredPortfolio } from "./../../project"
@@ -36,7 +34,7 @@ function Works() {
                                     </div>
                                     <h2>{item.title}</h2>
                                     <p>{item.desc}</p>
-                                    <span>Projects</span>
+                                    <a href="https://github.com/PradumnaBajoria?tab=repositories" target="_blank" rel="noreferrer"><span>Projects</span></a>
                                 </div>
                             </div>
                             <div className="right">

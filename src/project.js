@@ -1,6 +1,8 @@
 import blog from "./assets/blog.png"
 import ecom from "./assets/ecom.png"
 import icon from "./assets/blogIcon.jpg"
+import notice from "./assets/notice-board.png"
+import hotel from "./assets/hotel.png"
 
 // import blog from "./../../assets/blog.png"
 // import ecom from "./../../assets/ecom.png"
@@ -8,14 +10,14 @@ import icon from "./assets/blogIcon.jpg"
 export const featuredPortfolio = [
     {
         id: "1",
-        title: "Blog-App",
+        title: "Blog App",
         img: `${blog}`,
-        desc: "Blog app created using mern. It has many functionality and can be used as anyregular blogging platform",
+        desc: "MERN application having functionality of any basic blogging site.",
         icon: `${icon}`
     },
     {
         id: "2",
-        title: "E-Commerce-App",
+        title: "E Commerce",
         img: `${ecom}`,
         desc: "E-commerce platform created usong ReactJS and Stripe.",
         icon: `${icon}`
@@ -23,8 +25,15 @@ export const featuredPortfolio = [
     {
         id: "3",
         title: "Online Notice Board",
-        img: `${blog}`,
-        desc: "Online Notice Board System using LAMP technology",
+        img: `${notice}`,
+        desc: "Online Notice System by which school/college can notify their students about any notice",
+        icon: `${icon}`
+    },
+    {
+        id: "4",
+        title: "Hotel Management",
+        img: `${hotel}`,
+        desc: "An application for both user's and Hotel to book room online or desktop.",
         icon: `${icon}`
     },
 ]
