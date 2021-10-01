@@ -3,6 +3,7 @@ import ecom from "./assets/ecom.png"
 import icon from "./assets/blogIcon.jpg"
 import notice from "./assets/notice-board.png"
 import hotel from "./assets/hotel.png"
+import spotify from "./assets/spotify.png"
 
 // import blog from "./../../assets/blog.png"
 // import ecom from "./../../assets/ecom.png"
@@ -73,14 +74,14 @@ export const otherPortfolio = [
     {
         id: "3",
         title: "Online Notice Board",
-        img: `${blog}`,
+        img: `${notice}`,
         desc: "Blog app created using mern. It has many functionality and can be used as anyregular blogging platform",
         icon: `${icon}`
     },
     {
         id: "4",
         title: "Spotify",
-        img: `${blog}`,
+        img: `${spotify}`,
         desc: "Blog app created using mern. It has many functionality and can be used as anyregular blogging platform",
         icon: `${icon}`
     }
